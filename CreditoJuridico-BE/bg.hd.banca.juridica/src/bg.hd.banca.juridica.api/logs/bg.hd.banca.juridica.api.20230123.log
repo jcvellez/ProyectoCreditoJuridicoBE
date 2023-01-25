@@ -1,0 +1,455 @@
+2023-01-23 09:45:05.271 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 09:45:38.697 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 09:45:49.996 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12176
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 09:45:56.987 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:03:25.548 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:03:28.194 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:05:45.485 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:13:30.673 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:16:34.776 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:18:23.860 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:18:24.462 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at bg.hd.banca.juridica.application.services.ConsultarCatalogoRepository.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\ConsultarCatalogoRepository.cs:line 42
+   at bg.hd.banca.juridica.api.Controllers.v1.CatalogoController.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\CatalogoController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-23 10:18:24.677 -05:00 [ERR] ExceptionHandler 500 Value cannot be null. (Parameter 's')
+2023-01-23 10:20:44.586 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:20:55.436 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at bg.hd.banca.juridica.application.services.ConsultarCatalogoRepository.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\ConsultarCatalogoRepository.cs:line 42
+   at bg.hd.banca.juridica.api.Controllers.v1.CatalogoController.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\CatalogoController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-23 10:20:55.585 -05:00 [ERR] ExceptionHandler 500 Value cannot be null. (Parameter 's')
+2023-01-23 10:21:41.084 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 345
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:22:14.895 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:22:15.000 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at bg.hd.banca.juridica.application.services.ConsultarCatalogoRepository.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\ConsultarCatalogoRepository.cs:line 42
+   at bg.hd.banca.juridica.api.Controllers.v1.CatalogoController.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\CatalogoController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-23 10:22:15.126 -05:00 [ERR] ExceptionHandler 500 Value cannot be null. (Parameter 's')
+2023-01-23 10:24:01.366 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:24:28.278 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:25:15.965 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:30:42.462 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:31:42.060 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12176
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:31:52.998 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:32:09.418 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:33:52.924 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 10:37:39.061 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 10:46:34.099 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.ConsultarCatalogoException: Catálogo no permitido para consulta
+Catálogo no permitido para consulta
+2023-01-23 10:46:34.108 -05:00 [ERR] ExceptionHandler 400 Catálogo no permitido para consulta
+2023-01-23 10:47:15.056 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.ConsultarCatalogoException: Catálogo no permitido para consulta
+Catálogo no permitido para consulta
+2023-01-23 10:47:15.104 -05:00 [ERR] ExceptionHandler 400 Catálogo no permitido para consulta
+2023-01-23 10:55:12.486 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.ConsultarCatalogoException: Catálogo no permitido para consulta
+Catálogo no permitido para consulta
+2023-01-23 10:55:12.512 -05:00 [ERR] ExceptionHandler 400 Catálogo no permitido para consulta
+2023-01-23 11:01:38.986 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 345
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:30:16.096 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 11:32:10.538 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:32:10.920 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at bg.hd.banca.juridica.application.services.ConsultarCatalogoRepository.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\ConsultarCatalogoRepository.cs:line 43
+   at bg.hd.banca.juridica.api.Controllers.v1.CatalogoController.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\CatalogoController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-23 11:32:11.118 -05:00 [ERR] ExceptionHandler 500 Value cannot be null. (Parameter 's')
+2023-01-23 11:32:24.070 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:32:24.206 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at bg.hd.banca.juridica.application.services.ConsultarCatalogoRepository.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\ConsultarCatalogoRepository.cs:line 43
+   at bg.hd.banca.juridica.api.Controllers.v1.CatalogoController.ConsultarCatalogo(ConsultarCatalogoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\CatalogoController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-23 11:32:24.393 -05:00 [ERR] ExceptionHandler 500 Value cannot be null. (Parameter 's')
+2023-01-23 11:33:49.763 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 11:34:25.734 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:34:38.498 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 1
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:36:52.863 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 11:37:36.977 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:37:46.878 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:38:01.778 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:40:36.911 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 11:41:36.050 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:42:09.781 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12176
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:42:30.794 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:43:06.271 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:50:31.778 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 11:50:51.204 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:51:02.411 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:51:23.431 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12176
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:51:35.207 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 12177
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+
+2023-01-23 11:56:00.855 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-23 11:56:19.626 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/catalogos/catalogo/detalle  producto: 
+opcion: 1
+idCatalogo: 307
+idCatalogoPadre: 0
+Filtro: 
+valorFiltro: 0
+ CodigoRetorno: 0
+Mensaje: Consulta de catalogos detalle se ha completado correctamente
+listaCatalogoDetalle: bg.hd.banca.juridica.domain.entities.catalogos.ListaCatalogoDetalle
+

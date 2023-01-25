@@ -1,0 +1,1516 @@
+2023-01-17 09:06:04.279 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 09:17:03.136 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 33
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 09:20:16.788 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: JVELEZ
+cargoContacto: DEVBACK
+telefonoContacto: 0999999987
+correoContacto: vmtjvelez
+viaContacto: T
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 34
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 09:20:35.740 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: JVELEZ
+cargoContacto: DEVBACK
+telefonoContacto: 0999999987
+correoContacto: vmtjvelez
+viaContacto: T
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 35
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 09:20:57.566 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: JVELEZ
+cargoContacto: DEVBACK
+telefonoContacto: 0999999987
+correoContacto: vmtjvelez
+viaContacto: T
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 36
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 10:20:40.471 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 10:43:22.157 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 10:48:55.205 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 53
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 24
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 10:48:55.278 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-17 10:49:28.935 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 53
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 24
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 10:49:28.994 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-17 10:49:43.159 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 53
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 24
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 10:49:43.225 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-17 10:50:19.822 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 53
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 24
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 10:50:30.015 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-17 10:51:29.245 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 53
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 24
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 10:52:01.811 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-17 10:52:51.356 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 32
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2098
+Destino: 
+Plazo: 12
+Periodicidad: 0
+TipoAmortizacion: 0
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 10:56:03.523 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 32
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2098
+Destino: 
+Plazo: 12
+Periodicidad: 2
+TipoAmortizacion: 2
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 10:56:29.992 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 32
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2098
+Destino: 
+Plazo: 12
+Periodicidad: 0
+TipoAmortizacion: 0
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 10:57:12.410 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 32
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2098
+Destino: 
+Plazo: 12
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 11:16:04.903 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 11:17:58.896 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:17:58.910 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:18:13.459 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:18:13.463 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:18:30.550 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:18:30.556 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:19:31.151 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 11:19:50.865 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:19:50.882 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:20:35.432 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:20:35.436 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:20:50.576 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: C
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 39
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 11:21:15.995 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:21:16.005 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:21:35.476 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0777777777
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 40
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 11:23:30.384 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:23:30.392 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:24:27.061 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 11:24:45.947 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 11:29:39.651 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:29:50.487 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:30:00.579 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:30:00.583 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:30:25.812 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:30:25.820 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:30:32.958 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:30:32.968 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:30:50.284 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:30:50.292 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:32:52.380 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 11:33:15.140 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: 
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 41
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 11:33:52.888 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:33:52.895 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:34:07.126 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 11:34:07.136 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 11:34:22.168 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0555555555
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: 
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 42
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:13:02.963 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:14:17.405 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0544444445
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: 
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 43
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:15:10.423 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: C
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:16:16.453 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0787878787
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: C
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:17:16.182 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:17:33.178 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0787878787
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: C
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:18:45.346 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:21:17.342 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0787878787
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: C
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:22:29.684 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:23:10.810 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 12:23:10.826 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 12:23:28.464 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: C
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 48
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:24:28.004 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:25:26.292 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+bg.hd.banca.juridica.application.models.exceptions.RegistrarSolicitudContactoException: Error de ingreso de datos
+viaContacto debe ser T(Telefono) o C(Correo)
+2023-01-17 12:25:26.309 -05:00 [ERR] ExceptionHandler 400 Error de ingreso de datos
+2023-01-17 12:26:16.648 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:27:38.561 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0444444444
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 49
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:29:14.385 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:30:27.701 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0555555555
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 50
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:31:36.919 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:32:53.762 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:35:14.647 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:36:12.689 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 100001
+Provincia: 18
+Ciudad: 56
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:38:32.168 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:39:02.144 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 100001
+Provincia: 18
+Ciudad: 56
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:39:56.006 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:45:49.132 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:47:08.081 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 54
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:49:08.039 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:49:42.889 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 55
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:50:18.245 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:51:14.880 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0333333333
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:52:41.478 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:53:49.979 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:54:42.205 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:57:07.553 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 0
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:57:48.911 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 12:58:15.733 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 099997777
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 12:59:06.474 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 13:04:46.928 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 60
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 13:05:20.534 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 100001
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 13:05:39.032 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 100000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 13:05:58.381 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: T
+RangoVenta: 9000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 63
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 13:06:54.771 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 13:07:22.815 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 64
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 13:09:50.223 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 13:10:09.863 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 1
+Ciudad: 1
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 65
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 14:12:30.348 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 14:15:38.351 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Convert.ToInt32(String value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 53
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 14:15:38.486 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-17 14:27:34.554 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 14:28:49.881 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 37
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 7000
+FormaPago: 12167
+Destino: 12176
+Plazo: 300
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 14:44:00.320 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 14:45:35.477 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 81
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 1
+Ciudad: 1
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 14:47:20.656 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 81
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 1
+Ciudad: 1
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 14:49:48.590 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 14:50:31.962 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 81
+numeroIdentificacion: 0999999999
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 1
+Ciudad: 1
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 15:02:54.954 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 1
+numeroIdentificacion: 0444444444
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+Oficial: HarryChovengo
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 0
+Destino: 0
+Plazo: 0
+Periodicidad: 0
+TipoAmortizacion: 0
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 15:04:49.115 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 1
+numeroIdentificacion: 066666666
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+Oficial: HarryChovengo
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 0
+Destino: 0
+Plazo: 0
+Periodicidad: 0
+TipoAmortizacion: 0
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 16:34:38.459 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 16:46:44.654 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 16:49:00.190 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 16:57:34.215 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:02:07.177 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:05:40.017 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:17:18.569 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:18:27.131 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 1
+numeroIdentificacion: 1792880858001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 17:22:06.303 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 1
+numeroIdentificacion: 1792880858001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 17:22:37.542 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:24:38.536 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 1792880858001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 88
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 17:25:30.329 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:41:51.297 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:45:16.741 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 1792880858001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 89
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 17:45:45.175 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 1
+numeroIdentificacion: 1792880858001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-17 17:47:29.673 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 42
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 17:47:29.830 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-17 17:48:40.654 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 42
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 17:48:40.817 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-17 17:49:42.614 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:51:06.481 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-17 17:52:30.999 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 2
+numeroIdentificacion: 0990271712001
+razonSocial: UxDevs
+nombreContacto: dev002
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev002@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+

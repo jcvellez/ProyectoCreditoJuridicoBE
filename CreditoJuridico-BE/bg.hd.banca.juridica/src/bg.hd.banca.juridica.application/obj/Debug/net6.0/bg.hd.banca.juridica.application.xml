@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>bg.hd.banca.juridica.application</name>
+    </assembly>
+    <members>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoError.code">
+            <summary>
+            Código http.
+            </summary>
+            <example>400</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoError.message">
+            <summary>
+            Mensaje de error.
+            </summary>
+            <example>Error Aplicativo</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoResponse`1.traceid">
+            <summary>
+            Identificador de trazabilidad.
+            </summary>
+            <example>6ee1b7a7bcd2c7c9</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoResponse`1.data">
+            <summary>
+            Datos devueltos.
+            </summary>
+            <example>{datos}</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoResponseError.code">
+            <summary>
+            Código http.
+            </summary>
+            <example>400</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoResponseError.traceid">
+            <summary>
+            Identificador de trazabilidad.
+            </summary>
+            <example>6ee1b7a7bcd2c7c9</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.application.models.dtos.MsDtoResponseError.message">
+            <summary>
+            Mensaje de error.
+            </summary>
+            <example>Error Aplicativo</example>
+        </member>
+    </members>
+</doc>

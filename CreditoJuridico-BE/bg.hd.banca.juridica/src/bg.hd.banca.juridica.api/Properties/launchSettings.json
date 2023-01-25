@@ -1,0 +1,36 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51934/",
+      "sslPort": 44311
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"        
+      }
+    },
+    "bg.hd.banca.juridica.api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "BGBANCAPYMEJURIDICAVariables_AzureAdTenantId": "706d9d00-0b06-424b-9a8b-38c67ad8da6f",
+        "BGBANCAPYMEJURIDICAVariables_AzureAdAudience": "80b47b82-39a6-451a-849a-d673e6ad23ac",
+        "BGBANCAPYMEJURIDICAVariables_AzureAdInstance": "https://login.microsoftonline.com/",
+        "BGBANCAPYMEJURIDICAVariables_AzureAdClientId": "37dc3f18-9b76-454c-b080-c5a9438ef978",
+        "BGBANCAPYMEJURIDICAVariables_AzureAdClientSecret": "IXp8Q~kp5HpSJh9q7mOXKt4uXPpvAPzp44Y.wa3j", //w1n8Q~r_G3QHLeVJCYyclXy8qglyELSaCZ1t.bRR //
+        "BGBANCAPYMEJURIDICAVariables_DiasProximaActualizacionRC": "1825",
+        "BGBANCAPYMEJURIDICAVariables_MinPictureLengthInBytes": "1024",
+        "BGBANCAPYMEJURIDICAVariables_ConsumirPersonaRCGW": "true",
+        "BGBANCAPYMEJURIDICAVariables_AzureAdResource": "api://80b47b82-39a6-451a-849a-d673e6ad23ac"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}

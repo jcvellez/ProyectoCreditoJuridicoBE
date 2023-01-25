@@ -1,0 +1,12 @@
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\bin\Debug\netstandard2.1\bg.hd.banca.juridica.domain.deps.json
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\bin\Debug\netstandard2.1\bg.hd.banca.juridica.domain.dll
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\bin\Debug\netstandard2.1\bg.hd.banca.juridica.domain.pdb
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\bin\Debug\netstandard2.1\bg.hd.banca.juridica.domain.xml
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.csproj.AssemblyReference.cache
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.AssemblyInfoInputs.cache
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.AssemblyInfo.cs
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.csproj.CoreCompileInputs.cache
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.dll
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.xml
+C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.domain\obj\Debug\netstandard2.1\bg.hd.banca.juridica.domain.pdb

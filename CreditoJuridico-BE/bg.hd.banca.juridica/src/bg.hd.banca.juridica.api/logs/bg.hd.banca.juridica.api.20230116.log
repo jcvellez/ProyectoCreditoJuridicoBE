@@ -1,0 +1,295 @@
+2023-01-16 15:54:09.113 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:00:52.000 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ codigError: 0
+mensajeError: 
+CODIGO: 0
+MENSAJE: Error al convertir el valor del parámetro de String a Int32.
+
+2023-01-16 16:02:45.051 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ codigError: 0
+mensajeError: 
+CODIGO: 0
+MENSAJE: Error al convertir el valor del parámetro de String a Int32.
+
+2023-01-16 16:14:36.674 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:17:28.568 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:18:46.117 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:22:37.596 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:28:13.877 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:39:53.192 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:43:08.177 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:45:46.778 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:47:16.032 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ codigError: 0
+mensajeError: 
+CODIGO: 0
+MENSAJE: Error al convertir el valor del parámetro de String a Int32.
+
+2023-01-16 16:51:44.290 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:54:05.323 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 16:55:33.592 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ codigError: 0
+mensajeError: 
+CODIGO: 0
+MENSAJE: La Transaccion con Datos
+
+2023-01-16 17:03:59.327 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:12:59.348 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:15:14.952 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999888889
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-16 17:22:26.575 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:24:44.245 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:25:08.665 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0999999999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 28
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-16 17:26:28.802 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 28
+numeroIdentificacion: 099999
+razonSocial: string
+nombreContacto: string
+cargoContacto: string
+telefonoContacto: string
+correoContacto: string
+viaContacto: string
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+envioCorreo: 1
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-16 17:32:43.886 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: JVELEZ
+cargoContacto: DEVBACK
+telefonoContacto: 0999999987
+correoContacto: vmt-jvelez
+viaContacto: C
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: Error al convertir el valor del parámetro de String a Decimal.
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-16 17:37:08.873 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:37:25.917 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: JVELEZ
+cargoContacto: DEVBACK
+telefonoContacto: 0999999987
+correoContacto: vmtjvelez
+viaContacto: C
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 29
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-16 17:41:54.860 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:42:30.787 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-16 17:46:57.683 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: ADASDASDASDASD
+cargoContacto: ADASDASDASDASD
+telefonoContacto: 0987654321
+correoContacto: ADASDASDASDASD
+viaContacto: C
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 30
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-16 17:50:19.834 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 30
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: ADASDASDASDASD
+cargoContacto: XXXXXXXXXXXXX
+telefonoContacto: 0987654321
+correoContacto: ADASDASDASDASD
+viaContacto: C
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 
+Destino: 
+Plazo: 
+Periodicidad: 
+TipoAmortizacion: 
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+

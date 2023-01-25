@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>bg.hd.banca.juridica.domain</name>
+    </assembly>
+    <members>
+        <member name="P:bg.hd.banca.juridica.domain.entities.catalogos.ConsultarCatalogoRequest.producto">
+            <summary>
+            IdCatalogo 
+            </summary>
+            <example>cuotaMensual</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.catalogos.ConsultarCatalogoRequest.opcion">
+            <summary>
+            Opción 
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.catalogos.ConsultarCatalogoRequest.idCatalogo">
+            <summary>
+            IdCatalogo 
+            </summary>
+            <example>345</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.catalogos.ConsultarCatalogoRequest.idCatalogoPadre">
+            <summary>
+            IdCatalogoPadre
+            </summary>
+            <example>0</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.monto">
+            <example>15000</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.destinoFinanciero">
+            <example>capitalTrabajo</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.tipoProducto">
+            <example>alVencimiento</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.plazo">
+            <example>2</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.TipoAmortizacion">
+            <example>2123</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.RangoVentas">
+            <example>77498 </example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.PeriodoCuota">
+            <example>77492</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.cotizador.SimularCreditoRequest.tipoProductoStr">
+            <example>alVencimiento</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.email.EmailValidacionRequest.identificacion">
+            <summary>
+            identificacion
+            </summary>
+            <example>0703691824</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.email.EmailValidacionRequest.correo">
+            <summary>
+            correo
+            </summary>
+            <example>correoprueba@gmail.com</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.persona.EnviarNotificacionRequest.IdSolicitud">
+            <example>
+            23
+            </example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.recaptcha.RecaptchaRequest.token">
+            <summary>
+            Google ReCaptcha Encoded Response.- OBLIGATORIO; Token generado por el widget de reCAPTCHA y que debe ser capturado con Request["g-recaptcha-response"].
+            </summary>
+            <example>6LcmrXUUAAAAAJne55MlrLcn4bCI-Jn14aKxbjOC</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.recaptcha.RecaptchaRequest.remoteIp">
+            <summary>
+            dirección IP/dominio del cliente, servirá para validar el dominio en caso de que en la configuración de Google ReCaptcha se deje habilitado “validar dominio”
+            </summary>
+            <example>https://apps.bancoguayaquil.com/reclutamiento/</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.SolicitudContacto">
+            <example>0</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.numeroIdentificacion">
+            <example>0999999999</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.razonSocial">
+            <example>KaizenDevs</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.nombreContacto">
+            <example>dev001</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.cargoContacto">
+            <example>DevBack</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.telefonoContacto">
+            <example>0999800800</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.correoContacto">
+            <example>dev001@bancoguayaquil.com</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.viaContacto">
+            <example>T</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.RangoVenta">
+            <example>77498</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.Provincia">
+            <example>18</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.Ciudad">
+            <example>56</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.Oficial">
+            <example>MailOficial</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.envioCorreo">
+            <example>0</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.montoSolicitado">
+            <example>0</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.FormaPago">
+            <example>1</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.Destino">
+            <example>1</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.Plazo">
+            <example>1</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.Periodicidad">
+            <example>1</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.TipoAmortizacion">
+            <example>1</example>
+        </member>
+        <member name="P:bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequestMicro.idClteHost">
+            <example>0</example>
+            
+        </member>
+    </members>
+</doc>

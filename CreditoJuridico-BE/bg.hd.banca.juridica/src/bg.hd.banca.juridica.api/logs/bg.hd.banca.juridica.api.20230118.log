@@ -1,0 +1,960 @@
+2023-01-18 09:19:15.402 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 09:22:47.897 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The JSON property name for 'bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.oficial' collides with another property.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerPropertyNameConflict(Type type, JsonPropertyInfo jsonPropertyInfo)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.CacheMember(JsonPropertyInfo jsonPropertyInfo, JsonPropertyDictionary`1 propertyCache, Dictionary`2& ignoredMembers)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.CacheMember(Type declaringType, Type memberType, MemberInfo memberInfo, Boolean isVirtual, Nullable`1 typeNumberHandling, Boolean& propertyOrderSpecified, Dictionary`2& ignoredMembers)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo..ctor(Type type, JsonConverter converter, Type runtimeType, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.<InitializeForReflectionSerializer>g__CreateJsonTypeInfo|112_0(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetClassFromContextOrCreate(Type type)
+   at System.Text.Json.JsonSerializerOptions.GetOrAddClass(Type type)
+   at System.Text.Json.JsonSerializer.GetTypeInfo(JsonSerializerOptions options, Type runtimeType)
+   at System.Text.Json.JsonSerializer.DeserializeAsync(Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 09:22:48.182 -05:00 [ERR] ExceptionHandler 500 The JSON property name for 'bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.oficial' collides with another property.
+2023-01-18 09:26:59.101 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The JSON property name for 'bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.oficial' collides with another property.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerPropertyNameConflict(Type type, JsonPropertyInfo jsonPropertyInfo)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.CacheMember(JsonPropertyInfo jsonPropertyInfo, JsonPropertyDictionary`1 propertyCache, Dictionary`2& ignoredMembers)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.CacheMember(Type declaringType, Type memberType, MemberInfo memberInfo, Boolean isVirtual, Nullable`1 typeNumberHandling, Boolean& propertyOrderSpecified, Dictionary`2& ignoredMembers)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo..ctor(Type type, JsonConverter converter, Type runtimeType, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.<InitializeForReflectionSerializer>g__CreateJsonTypeInfo|112_0(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetClassFromContextOrCreate(Type type)
+   at System.Text.Json.JsonSerializerOptions.GetOrAddClass(Type type)
+   at System.Text.Json.JsonSerializer.GetTypeInfo(JsonSerializerOptions options, Type runtimeType)
+   at System.Text.Json.JsonSerializer.DeserializeAsync(Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 09:26:59.279 -05:00 [ERR] ExceptionHandler 500 The JSON property name for 'bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.oficial' collides with another property.
+2023-01-18 09:27:29.403 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The JSON property name for 'bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.oficial' collides with another property.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_SerializerPropertyNameConflict(Type type, JsonPropertyInfo jsonPropertyInfo)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.CacheMember(JsonPropertyInfo jsonPropertyInfo, JsonPropertyDictionary`1 propertyCache, Dictionary`2& ignoredMembers)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo.CacheMember(Type declaringType, Type memberType, MemberInfo memberInfo, Boolean isVirtual, Nullable`1 typeNumberHandling, Boolean& propertyOrderSpecified, Dictionary`2& ignoredMembers)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo..ctor(Type type, JsonConverter converter, Type runtimeType, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.<InitializeForReflectionSerializer>g__CreateJsonTypeInfo|112_0(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetClassFromContextOrCreate(Type type)
+   at System.Text.Json.JsonSerializerOptions.GetOrAddClass(Type type)
+   at System.Text.Json.JsonSerializer.GetTypeInfo(JsonSerializerOptions options, Type runtimeType)
+   at System.Text.Json.JsonSerializer.DeserializeAsync(Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 09:27:29.554 -05:00 [ERR] ExceptionHandler 500 The JSON property name for 'bg.hd.banca.juridica.domain.entities.solicitud.RegistrarSolicitudContactoRequest.oficial' collides with another property.
+2023-01-18 09:35:40.745 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 09:42:25.530 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 7777777777
+razonSocial: KaizenTest
+nombreContacto: Leslye Torres
+cargoContacto: QA
+telefonoContacto: 0987654321
+correoContacto: Leslye@gmail.com
+viaContacto: C
+RangoVenta: 7000
+Provincia: 1
+Ciudad: 1
+Oficial: JVELEZ
+envioCorreo: 
+montoSolicitado: 90000
+FormaPago: 2099
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 92
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 09:48:06.468 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0990271712001
+razonSocial: NOCliente
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 93
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 09:53:36.207 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 09:54:47.139 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 09:55:30.591 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 09:56:13.491 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 09:57:38.810 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 1
+SolicitudContacto: 0
+numeroIdentificacion: 0990271712001
+razonSocial: NOClienteII
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 94
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 10:51:55.992 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 10:55:52.181 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 10:56:18.562 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 49
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 10:56:19.221 -05:00 [ERR] ExceptionHandler 500 Index was outside the bounds of the array.
+2023-01-18 10:58:45.705 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 49
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 10:58:45.964 -05:00 [ERR] ExceptionHandler 500 Index was outside the bounds of the array.
+2023-01-18 11:04:17.412 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 11:08:33.914 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 61
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 11:16:36.635 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 11:54:39.504 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 11:56:23.943 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1
+FormaPago: 1
+Destino: 123
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 11:57:38.073 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 71
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 11:57:38.329 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-18 12:11:49.258 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 12:14:52.613 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 7777
+FormaPago: 2099
+Destino: 777
+Plazo: 777
+Periodicidad: 777
+TipoAmortizacion: 777
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 12:16:06.747 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 7777
+FormaPago: 2099
+Destino: 777
+Plazo: 777
+Periodicidad: 777
+TipoAmortizacion: 777
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 12:24:34.260 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 12:24:51.319 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2099
+Destino: 777
+Plazo: 777
+Periodicidad: 777
+TipoAmortizacion: 777
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 12:33:15.337 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2099
+Destino: 777
+Plazo: 777
+Periodicidad: 777
+TipoAmortizacion: 777
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 12:49:23.879 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 1100
+FormaPago: 2099
+Destino: 777
+Plazo: 777
+Periodicidad: 777
+TipoAmortizacion: 777
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 12:51:19.411 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 96
+numeroIdentificacion: 0990828237001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 2099
+Destino: 777
+Plazo: 777
+Periodicidad: 777
+TipoAmortizacion: 777
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 14:37:44.827 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 14:40:45.139 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 40
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 14:40:45.262 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-18 14:41:41.822 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 40
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 14:41:41.900 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-18 14:42:41.534 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 14:44:10.011 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 40
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 14:44:10.132 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-18 14:45:09.861 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 14:46:33.957 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 49
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 14:46:41.731 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-18 14:52:07.206 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request)
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 14:52:07.461 -05:00 [ERR] ExceptionHandler 500 Object reference not set to an instance of an object.
+2023-01-18 14:59:34.187 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 15:01:30.633 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 95
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+Oficial: 
+envioCorreo: 
+montoSolicitado: 6700
+FormaPago: 12168
+Destino: 12176
+Plazo: 2
+Periodicidad: 77493
+TipoAmortizacion: 2123
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 16:05:26.977 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 16:09:57.344 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 95
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+Oficial: 
+envioCorreo: 
+montoSolicitado: 6700
+FormaPago: 12168
+Destino: 12176
+Plazo: 2
+Periodicidad: 77493
+TipoAmortizacion: 2123
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 16:13:13.300 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 95
+numeroIdentificacion: 
+razonSocial: 
+nombreContacto: 
+cargoContacto: 
+telefonoContacto: 
+correoContacto: 
+viaContacto: 
+RangoVenta: 0
+Provincia: 0
+Ciudad: 0
+Oficial: 
+envioCorreo: 
+montoSolicitado: 7000
+FormaPago: 12168
+Destino: 12176
+Plazo: 2
+Periodicidad: 77493
+TipoAmortizacion: 2123
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 16:57:26.144 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 17:03:07.101 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: AVICOLA FERNANDEZ S.A.
+nombreContacto: Prueba Test Quality Assurance 4
+cargoContacto: Chief Marketing Officer
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 13000
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 55000
+FormaPago: 16
+Destino: 2098
+Plazo: 14
+Periodicidad: 4
+TipoAmortizacion: 6
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:05:25.854 -05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2023-01-18 17:06:36.791 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: AVICOLA FERNANDEZ S.A.
+nombreContacto: Prueba Test Quality Assurance 4
+cargoContacto: Chief Marketing Officer
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 13000
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 55000
+FormaPago: 16
+Destino: 2098
+Plazo: 14
+Periodicidad: 4
+TipoAmortizacion: 6
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:08:39.991 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 47
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 17:08:40.199 -05:00 [ERR] ExceptionHandler 500 Index was outside the bounds of the array.
+2023-01-18 17:08:57.829 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 2
+numeroIdentificacion: 011111111
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:09:39.984 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 011111111
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:12:12.258 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 1
+Destino: 1
+Plazo: 1
+Periodicidad: 1
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:18:43.589 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: KaizenDevs
+nombreContacto: Prueba Test Quality Assurance 4
+cargoContacto: Chief Marketing Officer
+telefonoContacto: 0987677258
+correoContacto: PruebaTestQualityAssurance4@gmail.com
+viaContacto: T
+RangoVenta: 13000
+Provincia: 18
+Ciudad: 56
+Oficial: MMORAN
+envioCorreo: 
+montoSolicitado: 55000
+FormaPago: 16
+Destino: 2098
+Plazo: 14
+Periodicidad: 4
+TipoAmortizacion: 6
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:21:38.515 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: KaizenDevs
+nombreContacto: Prueba Test Quality Assurance 4
+cargoContacto: Chief Marketing Officer
+telefonoContacto: 0987677258
+correoContacto: PruebaTestQualityAssurance4@gmail.com
+viaContacto: T
+RangoVenta: 13000
+Provincia: 18
+Ciudad: 56
+Oficial: MMORAN
+envioCorreo: 
+montoSolicitado: 55000
+FormaPago: 16
+Destino: 2098
+Plazo: 14
+Periodicidad: 4
+TipoAmortizacion: 6
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:26:47.720 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at bg.hd.banca.juridica.infrastructure.data.repositories.SolicitudRestRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.infrastructure\data\repositories\SolicitudRestRepository.cs:line 70
+   at bg.hd.banca.juridica.application.services.SolicitudRepository.RegistrarSolicitudContacto(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.application\services\SolicitudRepository.cs:line 28
+   at bg.hd.banca.juridica.api.Controllers.v1.SolicitudController.ConsultarCatalogo(RegistrarSolicitudContactoRequest request) in C:\GIT\CreditoJuridico-BE\bg.hd.banca.juridica\src\bg.hd.banca.juridica.api\Controllers\v1\SolicitudController.cs:line 29
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-18 17:26:47.876 -05:00 [ERR] ExceptionHandler 500 Input string was not in a correct format.
+2023-01-18 17:27:48.176 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MailOficial
+envioCorreo: 
+montoSolicitado: 0
+FormaPago: 12168
+Destino: 5
+Plazo: 12
+Periodicidad: 12
+TipoAmortizacion: 1
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
+2023-01-18 17:32:51.894 -05:00 [INF] http://neo.apps.dev.ocp.bancoguayaquil.com/entidades-neo/v2/solicitudes/solicitudContacto  opcion: 2
+SolicitudContacto: 91
+numeroIdentificacion: 0992142618001
+razonSocial: KaizenDevs
+nombreContacto: dev001
+cargoContacto: DevBack
+telefonoContacto: 0999800800
+correoContacto: dev001@bancoguayaquil.com
+viaContacto: T
+RangoVenta: 77498
+Provincia: 18
+Ciudad: 56
+Oficial: MMORAN
+envioCorreo: 
+montoSolicitado: 55000
+FormaPago: 16
+Destino: 2098
+Plazo: 14
+Periodicidad: 4
+TipoAmortizacion: 6
+ CodigoRetorno: 0
+Mensaje: La Transaccion con Datos
+idSolicitudContacto: 0
+datosConsulta: 
+ESTATUS: bg.hd.banca.juridica.domain.entities.solicitud.Estado
+DataSet: bg.hd.banca.juridica.domain.entities.solicitud.DatosSolicitudContacto
+
